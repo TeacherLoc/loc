@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div.monchinh{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../Images/12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+    background-size: cover;
+    width: 100%;
+}
+div.monchinh > div > img{
+    height: 270px;
+
+}
+div.monchinh > div {
+    margin: 10px 100px 10px 10px;
+    padding: 50px;
+}
+.nguyenlieu > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    font-size: 30px;
+}
+a > .logo >  img {
+    width: 100px;
+    
+}
+footer{
+    padding: 50px;
+}
+ h3 {
+    text-align: center; 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
